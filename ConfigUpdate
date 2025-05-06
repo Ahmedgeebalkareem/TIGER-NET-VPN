@@ -1,8 +1,50 @@
 {
   "Version": "1.0.0",
-  "Servers": [],
-  "Networks": [],
-  "SSLNetworks": [],
+  "Servers": [
+    {
+      "Name": "server 1",
+      "Flag": "AA.png",
+      "ServerIPHost": "b.shoppingbd.online",
+      "ServerCloudFrontHost": "b.shoppingbd.online",
+      "ServerHTTPHost": "b.shoppingbd.online",
+      "Category": "PREMIUM",
+      "OpenVPNTCPPort": "1194",
+      "OpenVPNSSLPort": "443",
+      "Username": "9976246",
+      "Password": "8776393"
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "A 🇸🇦 KSA NEW JAWWY FREE HIGH SPEED 💯💯",
+      "Payload": "GET wss:\/\/[host] HTTP\/1.1[crlf]Host: [host][crlf]Upgrade: WebServer(Cloudflare)[crlf][crlf]",
+      "Info": "Jawwy free 100% Good Working",
+      "TunnelType": 2,
+      "FrontQuery": "",
+      "BackQuery": "",
+      "Priority": 0,
+      "ServerHostDNS": "cf",
+      "ProxySettings": {
+        "Squid": "104.16.82.57",
+        "Port": "80"
+      }
+    }
+  ],
+  "SSLNetworks": [
+    {
+      "Name": "UAE || 🇦🇪 Du music 🎵🎶",
+      "SNIHost": "[host]",
+      "Payload": "GET wss:\/\/[host] HTTP\/1.1[crlf]Host: [host][crlf]Upgrade: WebServer(Cloudflare)[crlf][crlf]",
+      "Info": "",
+      "TunnelType": 5,
+      "Priority": 0,
+      "ServerHostDNS": "cf",
+      "ProxySettings": {
+        "Squid": "blog.soundcloud.com",
+        "Port": "443"
+      }
+    }
+  ],
   "V2Networks": [
     {
       "Name": "Jawwy Free Test ",
